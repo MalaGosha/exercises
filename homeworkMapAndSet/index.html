@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework - Map() and Set()</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div><p>Utwórz funkcję, która będzie zwracać tylko <strong>unikalne wartości</strong> z tablicy ["Paweł", "anna", "Anna", "Paweł", "Paweł", "Grzegorz", "0", "Anna", "Anna123"]</p></div>
+        <div><p>Wynik <strong>pierwszego</strong> zadania przy użyciu metody filter to:</p>
+            <button id="exOneBtn">Sprawdź!</button>
+            <div id="exOne"></div>
+        </div>
+        <div><p>Wynik <strong>pierwszego</strong> zadania przy użyciu Set() zwracająca tylko wartości to:</p>
+            <button id="exOneABtn">Sprawdź!</button>
+            <div id="exOneA"></div>
+        </div>
+        <div><p>Wynik <strong>pierwszego</strong> zadania przy użyciu Set() zwracająca unikatowe nazwy pisane wielką literą to:</p>
+            <button id="exOneBBtn">Sprawdź!</button>
+            <div id="exOneB"></div>
+        </div>
+        <div><p>Wynik <strong>pierwszego</strong> zadania przy użyciu Set() zwracająca tylko poprawnie napisane imiona to:</p>
+            <button id="exOneCBtn">Sprawdź!</button>
+            <div id="exOneC"></div>
+        </div>
+</div>
+<div class="container">
+    <div><p>Utwórz funkcję, która będzie zwracać unikalne wartoścxi z tablicy słów ["kierowano", "korowanie", "rokowanie", "las", "SAL", "era"] i będzie eliminować anagramy</p></div>
+        <div><p>Wynik <strong>drugiego</strong> zadania to:</p>
+            <button id="exTwoBtn">Sprawdź!</button>
+            <div id="exTwo"></div>
+        </div>
+</div>
+<div class="container">
+    <div>
+        <p>Zmień code w miejscu komentarza, pamiętając że map.keys() zwraca iterator a nie tablicę</p>
+        <p><code>
+            let map = new Map(); <br>
+            map.set("name", "john"); <br>
+            let keys = map.keys();<br><br>
+
+            newArray.push("more");<br>
+        </code></p>
+    </div>
+    <div><p>Wynik <strong>trzeciego</strong> zadania to:</p>
+        <button id="exThreeBtn">Sprawdź!</button>
+        <div><code id="exThree"></code></div>
+    </div>
+</div>
+
+<script src="exerciseOne.js"></script>
+<script src="exerciseTwo.js"></script>
+<script src="exerciseThree.js"></script>
+</body>
+</html>
